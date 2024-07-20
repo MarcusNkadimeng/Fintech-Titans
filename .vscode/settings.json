@@ -1,0 +1,25 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }, // optional but recommended
+  "prettier.trailingComma": "es5",
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": false,
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 120,
+  "prettier.proseWrap": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.bracketSameLine": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": [
+    "source.formatDocument",
+    "source.fixAll.eslint"
+  ]
+}
