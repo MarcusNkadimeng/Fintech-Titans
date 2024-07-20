@@ -18,5 +18,15 @@ const config: Config = {
   plugins: [
     require('daisyui'),
   ],
+  daisyui: {
+    themes: [
+      {
+      investec: {
+        "primary": "#303849",
+      }
+    },
+    "emerald"
+  ],
+  },
 };
 export default config;
