@@ -13,13 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors: {
-        DarkBlue: "#303849",
-        LightBlue: "#DFE6E9",
-        TextColour: "#30384A",
-        Gray: "#6E7480",
-        Gold: "#AE6425"
-      }
     },
   },
   plugins: [
@@ -27,13 +20,8 @@ const config: Config = {
   ],
   daisyui: {
     themes: [
-      {
-      investec: {
-        "primary": "#303849",
-      }
-    },
     "emerald"
-  ],
+    ],
   },
 };
 export default config;

@@ -3,11 +3,11 @@
 import { useHomeStore } from "./page";
 
 function Navbar() {
-  const clearChatId = useHomeStore((store) => store.clearChatId);
+  const { clearChatId, setIsSidebarOpen, isSidebarOpen } = useHomeStore((store) => store);
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-none">
-        <button className="btn btn-square btn-ghost">
+        <button className="btn btn-square btn-ghost" onClick={() => { setIsSidebarOpen(!isSidebarOpen) }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
